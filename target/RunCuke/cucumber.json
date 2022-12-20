@@ -1,0 +1,1533 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3367864100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify User Should Product Added To Shopping Cart SuccessFully",
+        "description": "",
+        "id": "computer-test;verify-user-should-product-added-to-shopping-cart-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 648914100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 928914700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuTab.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 316276100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click On Computer",
+            "match": {
+              "location": "ComputerPage1Test.clickOnComputer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 297111100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click On Desktop",
+            "match": {
+              "location": "ComputerPage1Test.clickOnDesktop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67114600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "getSelectByValue",
+            "match": {
+              "location": "ComputerPage1Test.getselectbyvalue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21012242500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clickOnAddToCart",
+            "match": {
+              "location": "ComputerPage1Test.clickonaddtocart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25765300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "getVerifyBuildYourOwn",
+            "match": {
+              "location": "ComputerPage1Test.getverifybuildyourown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75609600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "selectProcessorByValue",
+            "match": {
+              "location": "ComputerPage1Test.selectprocessorbyvalue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71141500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "selectRamByValue",
+            "match": {
+              "location": "ComputerPage1Test.selectrambyvalue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53934400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clickOnHDDGB",
+            "match": {
+              "location": "ComputerPage1Test.clickonhddgb()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39930500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clickOnOsVistaPremium",
+            "match": {
+              "location": "ComputerPage1Test.clickonosvistapremium()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40951600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clickOnSoftwareTotalCommander",
+            "match": {
+              "location": "ComputerPage1Test.clickonsoftwaretotalcommander()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26134700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verifyTotalPrice",
+            "match": {
+              "location": "ComputerPage1Test.verifytotalprice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37626600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clickOnAddToCartButton",
+            "match": {
+              "location": "ComputerPage1Test.clickonaddtocartbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26762500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verifyCartMessage",
+            "match": {
+              "location": "ComputerPage1Test.verifycartmessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46141200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "closeMessageBar",
+            "match": {
+              "location": "ComputerPage1Test.closemessagebar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5185971700,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 21,
+                "value": "#And verifyShoppingCartMessage"
+              }
+            ],
+            "line": 22,
+            "name": "mouseHoverOnElementShoppingCart",
+            "match": {
+              "location": "ComputerPage1Test.mousehoveronelementshoppingcart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1724429700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "clickOnGoToCart",
+            "match": {
+              "location": "ComputerPage1Test.clickongotocart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38611600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clearTextInQuantityField",
+            "match": {
+              "location": "ComputerPage1Test.cleartextinquantityfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47251500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "sendTextToQuantityField",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttoquantityfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371555800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clickOnUpdateShoppingCartButton",
+            "match": {
+              "location": "ComputerPage1Test.clickonupdateshoppingcartbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24085100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verifyTotal",
+            "match": {
+              "location": "ComputerPage1Test.verifytotal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49397300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "clickOnCheckBoxIAgreeWithTermsAndCondition",
+            "match": {
+              "location": "ComputerPage1Test.clickoncheckboxiagreewithtermsandcondition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483985000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "clickOnCheckOutButton",
+            "match": {
+              "location": "ComputerPage1Test.clickoncheckoutbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21399700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verifyWelcomeText",
+            "match": {
+              "location": "ComputerPage1Test.verifywelcometext()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 573791900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "clickOnCheckOutAsGuest",
+            "match": {
+              "location": "ComputerPage1Test.clickoncheckoutasguest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49249200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "sendTextToFirstNameField",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttofirstnamefield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60027300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "sendTextToLastNameField",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttolastnamefield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67259700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "sendTextToEmailField",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttoemailfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51664100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "sendTextToCompanyField",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttocompanyfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58582200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "selectCountryFromDropDownList",
+            "match": {
+              "location": "ComputerPage1Test.selectcountryfromdropdownlist()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55607900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "sendTextToCityField",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttocityfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48901900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "sendTextToAddressLine",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttoaddressline()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24261300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "sendTextToAddressLine",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttoaddressline()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53129000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "sendTextToPostcode",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttopostcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55643800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "sendTextToPhoneNumberField",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttophonenumberfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33753300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "clickOnContinueButton",
+            "match": {
+              "location": "ComputerPage1Test.clickoncontinuebutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 291599300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "clickOnNextDayAirButton",
+            "match": {
+              "location": "ComputerPage1Test.clickonnextdayairbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35824800,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "clickOnContinueButtonAgain",
+            "match": {
+              "location": "ComputerPage1Test.clickoncontinuebuttonagain()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236142000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "clickOnCreditCardButton",
+            "match": {
+              "location": "ComputerPage1Test.clickoncreditcardbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33898500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "selectClickOnContinue",
+            "match": {
+              "location": "ComputerPage1Test.selectclickoncontinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249199100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "selectMasterCardFromCreditCardDropdown",
+            "match": {
+              "location": "ComputerPage1Test.selectmastercardfromcreditcarddropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58879200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "sendTextTOCardHolderName",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttocardholdername()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58711000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "sendTextTOCardNumber",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttocardnumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112379800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "selectMonthAndYearForCreditCardExpireData",
+            "match": {
+              "location": "ComputerPage1Test.selectmonthandyearforcreditcardexpiredata()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43731100,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "sendTextToCardCode",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttocardcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33534400,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "clickOnContinueButtonone",
+            "match": {
+              "location": "ComputerPage1Test.clickoncontinuebutton2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222699700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "getVerifyText",
+            "match": {
+              "location": "ComputerPage1Test.getverifytext()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34830000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "clickOnConfirmButton",
+            "match": {
+              "location": "ComputerPage1Test.clickonconfirmbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23515300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "getVerifyText",
+            "match": {
+              "location": "ComputerPage1Test.getverifytext()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16735700,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "getVerifyText",
+            "match": {
+              "location": "ComputerPage1Test.getverifytext()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          },
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Computer Test",
+    "description": "As a User I want to Add Product To Shopping Cart",
+    "id": "computer-test",
+    "keyword": "Feature",
+    "uri": "computerpage1test.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2330344900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify User Should able to Add Product from Electronics To Shopping Cart SuccessFully",
+        "description": "",
+        "id": "electronics-test;verify-user-should-able-to-add-product-from-electronics-to-shopping-cart-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 931626600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 393107700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuTab.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159900900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "mousehoveronelectronicstab",
+            "match": {
+              "location": "ElectronicsTest.mousehoveronelectronicstab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22942600,
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable: https://demo.nopcommerce.com/cell-phones has no size and location\n  (Session info: chrome\u003d108.0.5359.125)\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9c35c938ef5cf3524754962bf1ae0be3, actions {actions\u003d[org.openqa.selenium.interactions.Sequence@7ff8a9dc]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\viren\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63962/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9c35c938ef5cf3524754962bf1ae0be3\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)\r\n\tat org.openqa.selenium.interactions.Actions.perform(Actions.java:536)\r\n\tat com.nopcommerce.demo.utility.Utility.mouseHoverToElementAndClick(Utility.java:243)\r\n\tat com.nopcommerce.demo.pages.Electronics.mouseHoverOnCellPhonesAndClick(Electronics.java:227)\r\n\tat com.nopcommerce.demo.cucumber.steps.ElectronicsTest.mousehoveroncellphonesandclick(ElectronicsTest.java:11)\r\n\tat ✽.And mouseHoverOnCellPhonesAndClick(electronics.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "mouseHoverOnCellPhonesAndClick",
+            "match": {
+              "location": "ElectronicsTest.mousehoveroncellphonesandclick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "verifyTextCellPhones",
+            "match": {
+              "location": "ElectronicsTest.verifytextcellphones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "mouseHoverOnElectronics",
+            "match": {
+              "location": "ElectronicsTest.mousehoveronelectronics()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "mouseHoverOnCellPhones",
+            "match": {
+              "location": "ElectronicsTest.mousehoveroncellphones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 12,
+                "value": "# And verifyTextCellphones"
+              }
+            ],
+            "line": 13,
+            "name": "clickOnListViewTab",
+            "match": {
+              "location": "ElectronicsTest.clickonlistviewtab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "clickOnProductNameNokia",
+            "match": {
+              "location": "ElectronicsTest.clickonproductnamenokia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "verifyTextNokiaLumia",
+            "match": {
+              "location": "ElectronicsTest.verifytextnokialumia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "verifyNokiaPrice",
+            "match": {
+              "location": "ElectronicsTest.verifynokiaprice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "clearQuantity",
+            "match": {
+              "location": "ElectronicsTest.clearquantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "changeQuantityTo",
+            "match": {
+              "location": "ElectronicsTest.changequantityto(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 19,
+                "value": "# And clickOnAddToCart"
+              }
+            ],
+            "line": 20,
+            "name": "verifyGreenBarMessage",
+            "match": {
+              "location": "ElectronicsTest.verifygreenbarmessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "clickOnGreenBar",
+            "match": {
+              "location": "ElectronicsTest.clickongreenbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "mouseHoverOnShoppingCart",
+            "match": {
+              "location": "ElectronicsTest.mousehoveronshoppingcart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "hoverAndClickOnGoToCart",
+            "match": {
+              "location": "ElectronicsTest.hoverandclickongotocart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "verifyMessageShoppingCart",
+            "match": {
+              "location": "ElectronicsTest.verifymessageshoppingcart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "verifyQuantity",
+            "match": {
+              "location": "ElectronicsTest.verifyquantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "verifyTotal",
+            "match": {
+              "location": "ComputerPage1Test.verifytotal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "clickOnCheckboxx",
+            "match": {
+              "location": "ElectronicsTest.clickoncheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "clickOnCheckoutt",
+            "match": {
+              "location": "ElectronicsTest.clickoncheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "verifyTextWelcomePlease",
+            "match": {
+              "location": "ElectronicsTest.verifytextwelcomeplease()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "clickOnRegister",
+            "match": {
+              "location": "ElectronicsTest.clickonregister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "verifyTextRegister",
+            "match": {
+              "location": "ElectronicsTest.verifytextregister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "sendTextToFirstNameField",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttofirstnamefield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "sendTextToLastNameField",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttolastnamefield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "sendTextToDay",
+            "match": {
+              "location": "ElectronicsTest.sendtexttoday()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "sendTextToMonth",
+            "match": {
+              "location": "ElectronicsTest.sendtexttomonth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "sendTextToYear",
+            "match": {
+              "location": "ElectronicsTest.sendtexttoyear()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "sendTextToEmailField",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttoemailfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "sendTextToPasswordField",
+            "match": {
+              "location": "ElectronicsTest.sendtexttopasswordfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "sendTextToConfirmPasswordField",
+            "match": {
+              "location": "ElectronicsTest.sendtexttoconfirmpasswordfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "clickOnRegisterone",
+            "match": {
+              "location": "ElectronicsTest.clickonregister1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "verifyMessageYourRegistrationCompleted",
+            "match": {
+              "location": "ElectronicsTest.verifymessageyourregistrationcompleted()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "clickOnContinueone",
+            "match": {
+              "location": "ElectronicsTest.clickoncontinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "verifyTextShoppingCart",
+            "match": {
+              "location": "ElectronicsTest.verifytextshoppingcart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "clickOnCheckboxone",
+            "match": {
+              "location": "ElectronicsTest.clickoncheckbox1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "clickOnCheckout",
+            "match": {
+              "location": "ElectronicsTest.clickoncheckout1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "countryByVisibleText",
+            "match": {
+              "location": "ElectronicsTest.countrybyvisibletext()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "sendTextToCity",
+            "match": {
+              "location": "ElectronicsTest.sendtexttocity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "sendTextToAddress",
+            "match": {
+              "location": "ElectronicsTest.sendtexttoaddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "sendTextToPostelCode",
+            "match": {
+              "location": "ElectronicsTest.sendtexttopostelcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "sendTextToPhoneNumber",
+            "match": {
+              "location": "ElectronicsTest.sendtexttophonenumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "clickOnContinue",
+            "match": {
+              "location": "ElectronicsTest.clickoncontinue1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "clickOn2ndDayAir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 7
+                }
+              ],
+              "location": "ElectronicsTest.clickonNdDayAir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "clickOnContinue",
+            "match": {
+              "location": "ElectronicsTest.clickoncontinue1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "clickOnCreditCard",
+            "match": {
+              "location": "ElectronicsTest.clickoncreditcard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "clickOnContinueTab",
+            "match": {
+              "location": "ElectronicsTest.clickoncontinuetab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "clickOnSelectCreditCard",
+            "match": {
+              "location": "ElectronicsTest.clickonselectcreditcard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "clickOnVisa",
+            "match": {
+              "location": "ElectronicsTest.clickonvisa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 58,
+            "name": "sendTextToCardholderName",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 59,
+            "name": "sendTextToCardNumber",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "sendTextToExpirationMonth",
+            "match": {
+              "location": "ElectronicsTest.sendtexttoexpirationmonth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "sendTextToExpirationYear",
+            "match": {
+              "location": "ElectronicsTest.sendtexttoexpirationyear()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "sendTextToCardCode",
+            "match": {
+              "location": "ComputerPage1Test.sendtexttocardcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "clickOnContinue",
+            "match": {
+              "location": "ElectronicsTest.clickoncontinue1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "verifyPaymentMethod",
+            "match": {
+              "location": "ElectronicsTest.verifypaymentmethod()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "verifyShoppingMethod",
+            "match": {
+              "location": "ElectronicsTest.verifyshoppingmethod()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "verifyTotalPrice",
+            "match": {
+              "location": "ComputerPage1Test.verifytotalprice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 67,
+            "name": "clickOnConfirm",
+            "match": {
+              "location": "ElectronicsTest.clickonconfirm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 68,
+            "name": "verifyTextThankYou",
+            "match": {
+              "location": "ElectronicsTest.verifytextthankyou()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 69,
+            "name": "verifySuccessfully",
+            "match": {
+              "location": "ElectronicsTest.verifysuccessfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "clickOnContinue",
+            "match": {
+              "location": "ElectronicsTest.clickoncontinue1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 71,
+            "name": "verifyWelcomeToOurStore",
+            "match": {
+              "location": "ElectronicsTest.verifywelcometoourstore()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 72,
+            "name": "clickOnLogout",
+            "match": {
+              "location": "ElectronicsTest.clickonlogout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          },
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Electronics Test",
+    "description": "As a User I want to Add Product To Shopping Cart",
+    "id": "electronics-test",
+    "keyword": "Feature",
+    "uri": "electronics.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2613894000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify user should navigate to computer page successfully",
+        "description": "",
+        "id": "computer-test;verify-user-should-navigate-to-computer-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 822200500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 390524600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuTab.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 338914100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Computer Tab",
+            "match": {
+              "location": "HomePageTest.iClickOnComputerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32865800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Verify Computer text",
+            "match": {
+              "location": "HomePageTest.iVerifyComputerText()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 5,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Computer Test",
+    "description": "As a use I want to go on computer page",
+    "id": "computer-test",
+    "keyword": "Feature",
+    "uri": "homepage.feature"
+  }
+]
